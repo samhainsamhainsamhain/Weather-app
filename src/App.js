@@ -23,15 +23,6 @@ export default function App() {
     setCity("")
   }
 
-  // const check = () => {
-  //   console.log(city);
-  //   console.log(typeof(city))
-  //   console.log(currentWeather.name);
-  //   console.log(currentWeather);
-  //   console.log(currentWeather.weather);
-  //   console.log(icon)
-  // };
-
   return (
     <div>
       <form className="search" onSubmit={submitHandler}>
@@ -46,7 +37,6 @@ export default function App() {
           }}
         />
         <button className="search-button" type="submit">Submit</button>
-        {/* <button onClick={check}>check</button> */}
       </form>
       <Card>
         {currentWeather.sys !== undefined ? (

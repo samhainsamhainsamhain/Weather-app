@@ -35,10 +35,6 @@ export default function Content(props) {
   const sunrise = convertTimestamp(props.currentWeather.sys.sunrise);
   const sunset = convertTimestamp(props.currentWeather.sys.sunset);
 
-  // const check = () => {
-  //   console.log(sunrise, typeof(sunrise));
-  // }
-
   if (props.currentWeather !== undefined) {
     return (
       <section>
