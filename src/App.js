@@ -10,7 +10,6 @@ import "./App.css";
 
 export default function App() {
   const [city, setCity] = useState("");
-  // const [country, setCountry] = useState("Russia");
   const [currentWeather, setCurrentWeather] = useState([]);
 
   async function submitHandler(event) {
